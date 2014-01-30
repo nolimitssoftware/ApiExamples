@@ -1,0 +1,250 @@
+<assets totalCount="2">
+  <asset>
+    <application />
+    <assetCommunicationSetting />
+    <attached />
+    <available />
+    <chassis />
+    <childCount>0</childCount>
+    <childStatus />
+    <contracts />
+    <costPerKWH>0.1</costPerKWH>
+    <cpu />
+    <current />
+    <currentStatus>administration</currentStatus>
+    <custom />
+    <derivedStatus>administration</derivedStatus>
+    <dimensions>
+      <depth />
+      <height />
+      <rackUnits>0</rackUnits>
+      <weight />
+      <width />
+      <weightEditable>true</weightEditable>
+      <heightEditable>true</heightEditable>
+      <depthEditable>true</depthEditable>
+      <widthEditable>true</widthEditable>
+      <rackUnitsEditable>true</rackUnitsEditable>
+    </dimensions>
+    <displayName>CyberSwitching Side A</displayName>
+    <environment />
+    <guid />
+    <host />
+    <id>a9892bab-0387-e311-ab9a-00155d46ecda</id>
+    <ipAddressCollection />
+    <isFromIcu>true</isFromIcu>
+    <lifecycleStatus>active</lifecycleStatus>
+    <location>
+      <agentId />
+      <column></column>
+      <displayName>ICU Rack</displayName>
+      <facing>none</facing>
+      <full>ICU Rack (0)</full>
+      <id>43d51da5-0387-e311-ab9a-00155d46ecda</id>
+      <name>ICU Rack</name>
+      <rackLocation>0</rackLocation>
+      <rampPort></rampPort>
+      <row></row>
+      <type>rack</type>
+    </location>
+    <logicalGroup />
+    <logicalStorage />
+    <memory />
+    <message />
+    <model>
+      <basic>false</basic>
+      <cords>0</cords>
+      <depth />
+      <deratedAmps>0</deratedAmps>
+      <frontImageLocation />
+      <hasImageLocation>false</hasImageLocation>
+      <height />
+      <id>9a892bab-0387-e311-ab9a-00155d46ecda</id>
+      <manufacturer>Unknown</manufacturer>
+      <manufacturerId>09c2ddae-a62d-4072-8f09-70c5ecbca1b8</manufacturerId>
+      <maxAmps />
+      <name>Unknown</name>
+      <notes></notes>
+      <outletsC13>0</outletsC13>
+      <outletsC19>0</outletsC19>
+      <outletsNEMA5-15R>0</outletsNEMA5-15R>
+      <outletsNEMA5-20R>0</outletsNEMA5-20R>
+      <outletsNEMAL5-20R>0</outletsNEMAL5-20R>
+      <outletsNEMAL5-30R>0</outletsNEMAL5-30R>
+      <outletsNEMAL6-20R>0</outletsNEMAL6-20R>
+      <outletsNEMAL6-30R>0</outletsNEMAL6-30R>
+      <outletsOther>0</outletsOther>
+      <partNumber></partNumber>
+      <phases>0</phases>
+      <power />
+      <rackUnits />
+      <rearImageLocation />
+      <supportsRaMP>false</supportsRaMP>
+      <systemDefined>true</systemDefined>
+      <type>rpdu</type>
+      <weight />
+      <width />
+    </model>
+    <name>CyberSwitching Side A</name>
+    <nic />
+    <notes></notes>
+    <operatingSystem />
+    <outletCount />
+    <parentId>43d51da5-0387-e311-ab9a-00155d46ecda</parentId>
+    <path>/5/2/128/2/</path>
+    <pathDetail />
+    <physicalStorage />
+    <power />
+    <processor />
+    <protocol />
+    <rampEnabled />
+    <serialNumber />
+    <service />
+    <status>administration</status>
+    <type>rpdu</type>
+    <typeAtDiscovery>rpdu</typeAtDiscovery>
+    <upstream />
+    <virtualMachine />
+    <displayNameEditable>true</displayNameEditable>
+    <notesEditable>true</notesEditable>
+    <powerEditable>true</powerEditable>
+    <locationEditable>true</locationEditable>
+    <customEditable>true</customEditable>
+    <userPowerEditable>true</userPowerEditable>
+    <modelEditable>true</modelEditable>
+    <partNumberEditable>true</partNumberEditable>
+    <operatingSystemEditable>true</operatingSystemEditable>
+    <serialNumberEditable>true</serialNumberEditable>
+    <assetTagEditable>true</assetTagEditable>
+    <firmwareVersionEditable>true</firmwareVersionEditable>
+    <ratedPowerEditable>true</ratedPowerEditable>
+    <ratedVoltageEditable>true</ratedVoltageEditable>
+    <outletCountEditable>true</outletCountEditable>
+    <ratedCurrentEditable>true</ratedCurrentEditable>
+    <cpuEditable>true</cpuEditable>
+  </asset>
+  <asset>
+    <application />
+    <assetCommunicationSetting />
+    <attached />
+    <available />
+    <chassis />
+    <childCount>0</childCount>
+    <childStatus />
+    <contracts />
+    <costPerKWH>0.1</costPerKWH>
+    <cpu />
+    <current />
+    <currentStatus>administration</currentStatus>
+    <custom />
+    <derivedStatus>administration</derivedStatus>
+    <dimensions>
+      <depth />
+      <height />
+      <rackUnits>0</rackUnits>
+      <weight />
+      <width />
+      <weightEditable>true</weightEditable>
+      <heightEditable>true</heightEditable>
+      <depthEditable>true</depthEditable>
+      <widthEditable>true</widthEditable>
+      <rackUnitsEditable>true</rackUnitsEditable>
+    </dimensions>
+    <displayName>CyberSwitching Side B</displayName>
+    <environment />
+    <guid />
+    <host />
+    <id>c18a2bab-0387-e311-ab9a-00155d46ecda</id>
+    <ipAddressCollection />
+    <isFromIcu>true</isFromIcu>
+    <lifecycleStatus>active</lifecycleStatus>
+    <location>
+      <agentId />
+      <column></column>
+      <displayName>ICU Rack</displayName>
+      <facing>none</facing>
+      <full>ICU Rack (0)</full>
+      <id>43d51da5-0387-e311-ab9a-00155d46ecda</id>
+      <name>ICU Rack</name>
+      <rackLocation>0</rackLocation>
+      <rampPort></rampPort>
+      <row></row>
+      <type>rack</type>
+    </location>
+    <logicalGroup />
+    <logicalStorage />
+    <memory />
+    <message />
+    <model>
+      <basic>false</basic>
+      <cords>0</cords>
+      <depth />
+      <deratedAmps>0</deratedAmps>
+      <frontImageLocation />
+      <hasImageLocation>false</hasImageLocation>
+      <height />
+      <id>9a892bab-0387-e311-ab9a-00155d46ecda</id>
+      <manufacturer>Unknown</manufacturer>
+      <manufacturerId>09c2ddae-a62d-4072-8f09-70c5ecbca1b8</manufacturerId>
+      <maxAmps />
+      <name>Unknown</name>
+      <notes></notes>
+      <outletsC13>0</outletsC13>
+      <outletsC19>0</outletsC19>
+      <outletsNEMA5-15R>0</outletsNEMA5-15R>
+      <outletsNEMA5-20R>0</outletsNEMA5-20R>
+      <outletsNEMAL5-20R>0</outletsNEMAL5-20R>
+      <outletsNEMAL5-30R>0</outletsNEMAL5-30R>
+      <outletsNEMAL6-20R>0</outletsNEMAL6-20R>
+      <outletsNEMAL6-30R>0</outletsNEMAL6-30R>
+      <outletsOther>0</outletsOther>
+      <partNumber></partNumber>
+      <phases>0</phases>
+      <power />
+      <rackUnits />
+      <rearImageLocation />
+      <supportsRaMP>false</supportsRaMP>
+      <systemDefined>true</systemDefined>
+      <type>rpdu</type>
+      <weight />
+      <width />
+    </model>
+    <name>CyberSwitching Side B</name>
+    <nic />
+    <notes></notes>
+    <operatingSystem />
+    <outletCount />
+    <parentId>43d51da5-0387-e311-ab9a-00155d46ecda</parentId>
+    <path>/5/2/128/4/</path>
+    <pathDetail />
+    <physicalStorage />
+    <power />
+    <processor />
+    <protocol />
+    <rampEnabled />
+    <serialNumber />
+    <service />
+    <status>administration</status>
+    <type>rpdu</type>
+    <typeAtDiscovery>rpdu</typeAtDiscovery>
+    <upstream />
+    <virtualMachine />
+    <displayNameEditable>true</displayNameEditable>
+    <notesEditable>true</notesEditable>
+    <powerEditable>true</powerEditable>
+    <locationEditable>true</locationEditable>
+    <customEditable>true</customEditable>
+    <userPowerEditable>true</userPowerEditable>
+    <modelEditable>true</modelEditable>
+    <partNumberEditable>true</partNumberEditable>
+    <operatingSystemEditable>true</operatingSystemEditable>
+    <serialNumberEditable>true</serialNumberEditable>
+    <assetTagEditable>true</assetTagEditable>
+    <firmwareVersionEditable>true</firmwareVersionEditable>
+    <ratedPowerEditable>true</ratedPowerEditable>
+    <ratedVoltageEditable>true</ratedVoltageEditable>
+    <outletCountEditable>true</outletCountEditable>
+    <ratedCurrentEditable>true</ratedCurrentEditable>
+    <cpuEditable>true</cpuEditable>
+  </asset>
+</assets>

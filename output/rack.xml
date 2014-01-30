@@ -1,0 +1,1553 @@
+<asset>
+  <childCount>2</childCount>
+  <childStatus>
+    <unknown>0</unknown>
+    <maintenance>0</maintenance>
+    <unreachable>0</unreachable>
+    <critical>0</critical>
+    <warning>0</warning>
+    <administration>2</administration>
+    <information>0</information>
+    <normal>1</normal>
+    <clear>0</clear>
+    <all>0</all>
+  </childStatus>
+  <column>C</column>
+  <contracts>
+    <assetId>43d51da5-0387-e311-ab9a-00155d46ecda</assetId>
+    <enabled>false</enabled>
+    <contractType>Warranty</contractType>
+    <expiringMessageType>contractExpiring</expiringMessageType>
+    <expiredMessageType>contractExpired</expiredMessageType>
+    <trackingNumber></trackingNumber>
+    <hostedCompany></hostedCompany>
+    <contactName></contactName>
+    <contactPhone></contactPhone>
+    <contactEmail></contactEmail>
+  </contracts>
+  <contracts>
+    <assetId>43d51da5-0387-e311-ab9a-00155d46ecda</assetId>
+    <enabled>false</enabled>
+    <contractType>Service Contract</contractType>
+    <expiringMessageType>contractExpiring</expiringMessageType>
+    <expiredMessageType>contractExpired</expiredMessageType>
+    <trackingNumber></trackingNumber>
+    <hostedCompany></hostedCompany>
+    <contactName></contactName>
+    <contactPhone></contactPhone>
+    <contactEmail></contactEmail>
+  </contracts>
+  <contracts>
+    <assetId>43d51da5-0387-e311-ab9a-00155d46ecda</assetId>
+    <enabled>false</enabled>
+    <contractType>Lease</contractType>
+    <expiringMessageType>contractExpiring</expiringMessageType>
+    <expiredMessageType>contractExpired</expiredMessageType>
+    <trackingNumber></trackingNumber>
+    <hostedCompany></hostedCompany>
+    <contactName></contactName>
+    <contactPhone></contactPhone>
+    <contactEmail></contactEmail>
+  </contracts>
+  <contracts>
+    <assetId>43d51da5-0387-e311-ab9a-00155d46ecda</assetId>
+    <enabled>false</enabled>
+    <contractType>End of Life</contractType>
+    <expiringMessageType>eolExpiring</expiringMessageType>
+    <expiredMessageType>eolExpired</expiredMessageType>
+    <trackingNumber></trackingNumber>
+    <hostedCompany></hostedCompany>
+    <contactName></contactName>
+    <contactPhone></contactPhone>
+    <contactEmail></contactEmail>
+  </contracts>
+  <costPerKWH>0.1</costPerKWH>
+  <current>
+    <avg />
+    <max />
+    <sensorId />
+  </current>
+  <currentStatus>normal</currentStatus>
+  <custom />
+  <depth>42.13</depth>
+  <derivedStatus>administration</derivedStatus>
+  <design>1e2daaa5-1d8e-e111-afe0-001c421c284c</design>
+  <dimensions>
+    <depth>42.13</depth>
+    <height>78.39</height>
+    <rackUnits>42</rackUnits>
+    <weight />
+    <width>23.62</width>
+    <weightEditable>true</weightEditable>
+    <heightEditable>true</heightEditable>
+    <depthEditable>true</depthEditable>
+    <widthEditable>true</widthEditable>
+    <rackUnitsEditable>true</rackUnitsEditable>
+  </dimensions>
+  <displayName>ICU Rack</displayName>
+  <environment>
+    <humidityFront>
+      <sensorId>5e882bab-0387-e311-ab9a-00155d46ecda</sensorId>
+    </humidityFront>
+    <humidityRear />
+    <tempFront>
+      <max>31.9</max>
+      <avg>30.81</avg>
+      <sensorId>4f882bab-0387-e311-ab9a-00155d46ecda</sensorId>
+    </tempFront>
+    <tempRear>
+      <max>32.2</max>
+      <avg>30.04</avg>
+      <sensorId>97882bab-0387-e311-ab9a-00155d46ecda</sensorId>
+    </tempRear>
+  </environment>
+  <guid />
+  <height>78.39</height>
+  <host>
+    <address>172.16.182.4</address>
+    <agentId>bc2a5f46-3427-4f8b-864a-ebdb28abd3ee</agentId>
+    <available>true</available>
+    <isBMC>false</isBMC>
+    <lastDiscovered>2014-01-29T01:03:48.2724128-06:00</lastDiscovered>
+    <source></source>
+  </host>
+  <id>43d51da5-0387-e311-ab9a-00155d46ecda</id>
+  <ipAddressCollection />
+  <isFromIcu>false</isFromIcu>
+  <lifecycleStatus>active</lifecycleStatus>
+  <localOrientation>down</localOrientation>
+  <location>
+    <agentId />
+    <column>C</column>
+    <displayName>St. Louis</displayName>
+    <facing>down</facing>
+    <full>St. Louis</full>
+    <id>0c356003-0387-e311-ab9a-00155d46ecda</id>
+    <name>St. Louis</name>
+    <rampPort />
+    <row>5</row>
+    <type>physicalGroup</type>
+  </location>
+  <message>
+    <assetId>43d51da5-0387-e311-ab9a-00155d46ecda</assetId>
+    <clearedByUserName />
+    <data>
+      <protocol>icu</protocol>
+    </data>
+    <description>Expected to communicate via ICU but failed to do so.</description>
+    <endTimestamp />
+    <id>3dfe89ff-2688-e311-ab9a-00155d46ecda</id>
+    <ignore>false</ignore>
+    <messageMasterId>be02a2bf-ad23-44de-81d8-8a1ba1ed38a7</messageMasterId>
+    <severity>information</severity>
+    <startTimestamp>2014-01-28T14:18:08.423Z</startTimestamp>
+    <template>Expected to communicate via {protocol} but failed to do so.</template>
+    <userOverrideHelp />
+    <userOverrideType />
+  </message>
+  <message>
+    <assetId>43d51da5-0387-e311-ab9a-00155d46ecda</assetId>
+    <clearedByUserName />
+    <data>
+      <protocol>http</protocol>
+    </data>
+    <description>Expected to communicate via HTTP but failed to do so.</description>
+    <endTimestamp />
+    <id>3cfe89ff-2688-e311-ab9a-00155d46ecda</id>
+    <ignore>false</ignore>
+    <messageMasterId>be02a2bf-ad23-44de-81d8-8a1ba1ed38a7</messageMasterId>
+    <severity>information</severity>
+    <startTimestamp>2014-01-28T14:18:08.327Z</startTimestamp>
+    <template>Expected to communicate via {protocol} but failed to do so.</template>
+    <userOverrideHelp />
+    <userOverrideType />
+  </message>
+  <model>
+    <basic>false</basic>
+    <cords>0</cords>
+    <depth />
+    <frontImageLocation />
+    <hasImageLocation>false</hasImageLocation>
+    <height />
+    <id>09fe89ff-2688-e311-ab9a-00155d46ecda</id>
+    <manufacturer>GreenNET Technologies CoLtd</manufacturer>
+    <manufacturerId>c3a8a7b1-21a4-4fec-be58-cb190bef5a26</manufacturerId>
+    <maxAmps />
+    <name>Unknown</name>
+    <notes></notes>
+    <partNumber></partNumber>
+    <power />
+    <rackUnits />
+    <rearImageLocation />
+    <supportsRaMP>false</supportsRaMP>
+    <systemDefined>true</systemDefined>
+    <type>rack</type>
+    <weight />
+    <width />
+  </model>
+  <name>ICU Rack</name>
+  <notes></notes>
+  <parentId>0c356003-0387-e311-ab9a-00155d46ecda</parentId>
+  <path>/ccf6f70c-a2da-4f8c-98c1-73dcb1f9d371/f8346003-0387-e311-ab9a-00155d46ecda/0c356003-0387-e311-ab9a-00155d46ecda/43d51da5-0387-e311-ab9a-00155d46ecda/</path>
+  <pathDetail>
+    <assetId>ccf6f70c-a2da-4f8c-98c1-73dcb1f9d371</assetId>
+    <displayName>RaMP</displayName>
+    <name>RaMP</name>
+    <order>0</order>
+    <pathName>/</pathName>
+    <type>physicalGroup</type>
+  </pathDetail>
+  <pathDetail>
+    <assetId>f8346003-0387-e311-ab9a-00155d46ecda</assetId>
+    <displayName>Missouri</displayName>
+    <name>Missouri</name>
+    <order>1</order>
+    <pathName>/5/</pathName>
+    <type>physicalGroup</type>
+  </pathDetail>
+  <pathDetail>
+    <assetId>0c356003-0387-e311-ab9a-00155d46ecda</assetId>
+    <displayName>St. Louis</displayName>
+    <name>St. Louis</name>
+    <order>2</order>
+    <pathName>/5/2/</pathName>
+    <type>physicalGroup</type>
+  </pathDetail>
+  <pathDetail>
+    <assetId>43d51da5-0387-e311-ab9a-00155d46ecda</assetId>
+    <displayName>ICU Rack</displayName>
+    <name>ICU Rack</name>
+    <order>3</order>
+    <pathName>/5/2/128/</pathName>
+    <type>rack</type>
+  </pathDetail>
+  <power>
+    <available>5000</available>
+    <avg>0</avg>
+    <avgSensorId>46882bab-0387-e311-ab9a-00155d46ecda</avgSensorId>
+    <btuHr>0</btuHr>
+    <calculated>false</calculated>
+    <childReserveDeviceTotalPower>0</childReserveDeviceTotalPower>
+    <cost>0.1</cost>
+    <current>0</current>
+    <design>5000</design>
+    <designSensorId>d9892bab-0387-e311-ab9a-00155d46ecda</designSensorId>
+    <eac>0</eac>
+    <hourlyAvg>0</hourlyAvg>
+    <itPower />
+    <max>0</max>
+    <maxSensorId>46882bab-0387-e311-ab9a-00155d46ecda</maxSensorId>
+    <powerAvailable>0</powerAvailable>
+    <powerCapacitySensorId>fa892bab-0387-e311-ab9a-00155d46ecda</powerCapacitySensorId>
+    <powerType>analyzed</powerType>
+    <pueSensorId />
+    <source />
+  </power>
+  <protocol>
+    <credential />
+    <deviceMatched />
+    <ipAddress />
+    <password />
+    <port />
+    <portFriendlyName />
+    <protocolName>http</protocolName>
+    <protocolUsed />
+    <result>protocolFailed</result>
+    <resultStatus>failed</resultStatus>
+    <timing>0</timing>
+  </protocol>
+  <protocol>
+    <credential />
+    <deviceMatched></deviceMatched>
+    <ipAddress>172.16.182.4</ipAddress>
+    <password></password>
+    <port>80</port>
+    <portFriendlyName />
+    <protocolName>http</protocolName>
+    <protocolUsed />
+    <result>protocolFailed</result>
+    <resultStatus>failed</resultStatus>
+    <timing>4014.55</timing>
+  </protocol>
+  <protocol>
+    <credential />
+    <deviceMatched></deviceMatched>
+    <ipAddress>172.16.182.4</ipAddress>
+    <password></password>
+    <port>443</port>
+    <portFriendlyName />
+    <protocolName>http</protocolName>
+    <protocolUsed />
+    <result>portClosed</result>
+    <resultStatus>failed</resultStatus>
+    <timing>4014.55</timing>
+  </protocol>
+  <protocol>
+    <credential />
+    <deviceMatched></deviceMatched>
+    <ipAddress>172.16.182.4</ipAddress>
+    <password></password>
+    <port>8080</port>
+    <portFriendlyName />
+    <protocolName>http</protocolName>
+    <protocolUsed />
+    <result>portClosed</result>
+    <resultStatus>failed</resultStatus>
+    <timing>4014.55</timing>
+  </protocol>
+  <protocol>
+    <credential />
+    <deviceMatched />
+    <ipAddress />
+    <password />
+    <port />
+    <portFriendlyName />
+    <protocolName>icu</protocolName>
+    <protocolUsed />
+    <result>protocolFailed</result>
+    <resultStatus>failed</resultStatus>
+    <timing>0</timing>
+  </protocol>
+  <protocol>
+    <credential />
+    <deviceMatched></deviceMatched>
+    <ipAddress>172.16.182.4</ipAddress>
+    <password></password>
+    <port>80</port>
+    <portFriendlyName />
+    <protocolName>icu</protocolName>
+    <protocolUsed />
+    <result>protocolFailed</result>
+    <resultStatus>failed</resultStatus>
+    <timing>100025.59</timing>
+  </protocol>
+  <protocol>
+    <credential />
+    <deviceMatched></deviceMatched>
+    <ipAddress>172.16.182.4</ipAddress>
+    <password></password>
+    <port>81</port>
+    <portFriendlyName />
+    <protocolName>icu</protocolName>
+    <protocolUsed />
+    <result>portClosed</result>
+    <resultStatus>failed</resultStatus>
+    <timing>100025.59</timing>
+  </protocol>
+  <protocol>
+    <credential />
+    <deviceMatched />
+    <ipAddress />
+    <password />
+    <port />
+    <portFriendlyName />
+    <protocolName>ipmi</protocolName>
+    <protocolUsed />
+    <result>protocolFailed</result>
+    <resultStatus>failed</resultStatus>
+    <timing>0</timing>
+  </protocol>
+  <protocol>
+    <credential />
+    <deviceMatched></deviceMatched>
+    <ipAddress>172.16.182.4</ipAddress>
+    <password></password>
+    <port>623</port>
+    <portFriendlyName />
+    <protocolName>ipmi</protocolName>
+    <protocolUsed />
+    <result>portClosed</result>
+    <resultStatus>failed</resultStatus>
+    <timing>0</timing>
+  </protocol>
+  <protocol>
+    <credential />
+    <deviceMatched />
+    <ipAddress />
+    <password />
+    <port />
+    <portFriendlyName />
+    <protocolName>ntp</protocolName>
+    <protocolUsed />
+    <result>protocolFailed</result>
+    <resultStatus>failed</resultStatus>
+    <timing>0</timing>
+  </protocol>
+  <protocol>
+    <credential />
+    <deviceMatched></deviceMatched>
+    <ipAddress>172.16.182.4</ipAddress>
+    <password></password>
+    <port>123</port>
+    <portFriendlyName />
+    <protocolName>ntp</protocolName>
+    <protocolUsed />
+    <result>portClosed</result>
+    <resultStatus>failed</resultStatus>
+    <timing>0</timing>
+  </protocol>
+  <protocol>
+    <credential />
+    <deviceMatched />
+    <ipAddress />
+    <password />
+    <port />
+    <portFriendlyName />
+    <protocolName>ribcl</protocolName>
+    <protocolUsed />
+    <result>protocolFailed</result>
+    <resultStatus>failed</resultStatus>
+    <timing>0</timing>
+  </protocol>
+  <protocol>
+    <credential />
+    <deviceMatched></deviceMatched>
+    <ipAddress>172.16.182.4</ipAddress>
+    <password></password>
+    <port>443</port>
+    <portFriendlyName />
+    <protocolName>ribcl</protocolName>
+    <protocolUsed />
+    <result>portClosed</result>
+    <resultStatus>failed</resultStatus>
+    <timing>0</timing>
+  </protocol>
+  <protocol>
+    <credential />
+    <deviceMatched />
+    <ipAddress />
+    <password />
+    <port />
+    <portFriendlyName />
+    <protocolName>snmp</protocolName>
+    <protocolUsed />
+    <result>protocolFailed</result>
+    <resultStatus>failed</resultStatus>
+    <timing>0</timing>
+  </protocol>
+  <protocol>
+    <credential />
+    <deviceMatched></deviceMatched>
+    <ipAddress>172.16.182.4</ipAddress>
+    <password></password>
+    <port>161</port>
+    <portFriendlyName />
+    <protocolName>snmp</protocolName>
+    <protocolUsed />
+    <result>portClosed</result>
+    <resultStatus>failed</resultStatus>
+    <timing>0</timing>
+  </protocol>
+  <protocol>
+    <credential />
+    <deviceMatched />
+    <ipAddress />
+    <password />
+    <port />
+    <portFriendlyName />
+    <protocolName>ssh</protocolName>
+    <protocolUsed />
+    <result>protocolFailed</result>
+    <resultStatus>failed</resultStatus>
+    <timing>0</timing>
+  </protocol>
+  <protocol>
+    <credential />
+    <deviceMatched></deviceMatched>
+    <ipAddress>172.16.182.4</ipAddress>
+    <password></password>
+    <port>22</port>
+    <portFriendlyName />
+    <protocolName>ssh</protocolName>
+    <protocolUsed />
+    <result>portClosed</result>
+    <resultStatus>failed</resultStatus>
+    <timing>0</timing>
+  </protocol>
+  <protocol>
+    <credential />
+    <deviceMatched></deviceMatched>
+    <ipAddress>172.16.182.4</ipAddress>
+    <password></password>
+    <port>2222</port>
+    <portFriendlyName />
+    <protocolName>ssh</protocolName>
+    <protocolUsed />
+    <result>portClosed</result>
+    <resultStatus>failed</resultStatus>
+    <timing>0</timing>
+  </protocol>
+  <protocol>
+    <credential />
+    <deviceMatched />
+    <ipAddress />
+    <password />
+    <port />
+    <portFriendlyName />
+    <protocolName>tcp</protocolName>
+    <protocolUsed />
+    <result>protocolSuccess</result>
+    <resultStatus>success</resultStatus>
+    <timing>0</timing>
+  </protocol>
+  <protocol>
+    <credential />
+    <deviceMatched></deviceMatched>
+    <ipAddress>172.16.182.4</ipAddress>
+    <password></password>
+    <port>21</port>
+    <portFriendlyName>ftp</portFriendlyName>
+    <protocolName>tcp</protocolName>
+    <protocolUsed>ftp</protocolUsed>
+    <result>portClosed</result>
+    <resultStatus>failed</resultStatus>
+    <timing>0</timing>
+  </protocol>
+  <protocol>
+    <credential />
+    <deviceMatched></deviceMatched>
+    <ipAddress>172.16.182.4</ipAddress>
+    <password></password>
+    <port>22</port>
+    <portFriendlyName>ssh</portFriendlyName>
+    <protocolName>tcp</protocolName>
+    <protocolUsed>ssh</protocolUsed>
+    <result>portClosed</result>
+    <resultStatus>failed</resultStatus>
+    <timing>0</timing>
+  </protocol>
+  <protocol>
+    <credential />
+    <deviceMatched></deviceMatched>
+    <ipAddress>172.16.182.4</ipAddress>
+    <password></password>
+    <port>2222</port>
+    <portFriendlyName>ssh</portFriendlyName>
+    <protocolName>tcp</protocolName>
+    <protocolUsed>ssh</protocolUsed>
+    <result>portClosed</result>
+    <resultStatus>failed</resultStatus>
+    <timing>0</timing>
+  </protocol>
+  <protocol>
+    <credential />
+    <deviceMatched></deviceMatched>
+    <ipAddress>172.16.182.4</ipAddress>
+    <password></password>
+    <port>23</port>
+    <portFriendlyName>telnet</portFriendlyName>
+    <protocolName>tcp</protocolName>
+    <protocolUsed>telnet</protocolUsed>
+    <result>portClosed</result>
+    <resultStatus>failed</resultStatus>
+    <timing>0</timing>
+  </protocol>
+  <protocol>
+    <credential />
+    <deviceMatched></deviceMatched>
+    <ipAddress>172.16.182.4</ipAddress>
+    <password></password>
+    <port>25</port>
+    <portFriendlyName>smtp</portFriendlyName>
+    <protocolName>tcp</protocolName>
+    <protocolUsed>smtp</protocolUsed>
+    <result>portClosed</result>
+    <resultStatus>failed</resultStatus>
+    <timing>0</timing>
+  </protocol>
+  <protocol>
+    <credential />
+    <deviceMatched></deviceMatched>
+    <ipAddress>172.16.182.4</ipAddress>
+    <password></password>
+    <port>53</port>
+    <portFriendlyName>nameserver</portFriendlyName>
+    <protocolName>tcp</protocolName>
+    <protocolUsed>nameserver</protocolUsed>
+    <result>portClosed</result>
+    <resultStatus>failed</resultStatus>
+    <timing>0</timing>
+  </protocol>
+  <protocol>
+    <credential />
+    <deviceMatched></deviceMatched>
+    <ipAddress>172.16.182.4</ipAddress>
+    <password></password>
+    <port>110</port>
+    <portFriendlyName>pop3</portFriendlyName>
+    <protocolName>tcp</protocolName>
+    <protocolUsed>pop3</protocolUsed>
+    <result>portClosed</result>
+    <resultStatus>failed</resultStatus>
+    <timing>0</timing>
+  </protocol>
+  <protocol>
+    <credential />
+    <deviceMatched></deviceMatched>
+    <ipAddress>172.16.182.4</ipAddress>
+    <password></password>
+    <port>995</port>
+    <portFriendlyName>pop3s</portFriendlyName>
+    <protocolName>tcp</protocolName>
+    <protocolUsed>pop3s</protocolUsed>
+    <result>portClosed</result>
+    <resultStatus>failed</resultStatus>
+    <timing>0</timing>
+  </protocol>
+  <protocol>
+    <credential />
+    <deviceMatched></deviceMatched>
+    <ipAddress>172.16.182.4</ipAddress>
+    <password></password>
+    <port>143</port>
+    <portFriendlyName>imap</portFriendlyName>
+    <protocolName>tcp</protocolName>
+    <protocolUsed>imap</protocolUsed>
+    <result>portClosed</result>
+    <resultStatus>failed</resultStatus>
+    <timing>0</timing>
+  </protocol>
+  <protocol>
+    <credential />
+    <deviceMatched></deviceMatched>
+    <ipAddress>172.16.182.4</ipAddress>
+    <password></password>
+    <port>993</port>
+    <portFriendlyName>imaps</portFriendlyName>
+    <protocolName>tcp</protocolName>
+    <protocolUsed>imaps</protocolUsed>
+    <result>portClosed</result>
+    <resultStatus>failed</resultStatus>
+    <timing>0</timing>
+  </protocol>
+  <protocol>
+    <credential />
+    <deviceMatched></deviceMatched>
+    <ipAddress>172.16.182.4</ipAddress>
+    <password></password>
+    <port>389</port>
+    <portFriendlyName>ldap</portFriendlyName>
+    <protocolName>tcp</protocolName>
+    <protocolUsed>ldap</protocolUsed>
+    <result>portClosed</result>
+    <resultStatus>failed</resultStatus>
+    <timing>0</timing>
+  </protocol>
+  <protocol>
+    <credential />
+    <deviceMatched></deviceMatched>
+    <ipAddress>172.16.182.4</ipAddress>
+    <password></password>
+    <port>636</port>
+    <portFriendlyName>ldaps</portFriendlyName>
+    <protocolName>tcp</protocolName>
+    <protocolUsed>ldaps</protocolUsed>
+    <result>portClosed</result>
+    <resultStatus>failed</resultStatus>
+    <timing>0</timing>
+  </protocol>
+  <protocol>
+    <credential />
+    <deviceMatched />
+    <ipAddress>172.16.182.4</ipAddress>
+    <password></password>
+    <port>1433</port>
+    <portFriendlyName>ms-sql</portFriendlyName>
+    <protocolName>tcp</protocolName>
+    <protocolUsed>ms-sql</protocolUsed>
+    <result>protocolSuccess</result>
+    <resultStatus>success</resultStatus>
+    <timing>0</timing>
+  </protocol>
+  <protocol>
+    <credential />
+    <deviceMatched></deviceMatched>
+    <ipAddress>172.16.182.4</ipAddress>
+    <password></password>
+    <port>1521</port>
+    <portFriendlyName>oracle</portFriendlyName>
+    <protocolName>tcp</protocolName>
+    <protocolUsed>oracle</protocolUsed>
+    <result>portClosed</result>
+    <resultStatus>failed</resultStatus>
+    <timing>0</timing>
+  </protocol>
+  <protocol>
+    <credential />
+    <deviceMatched></deviceMatched>
+    <ipAddress>172.16.182.4</ipAddress>
+    <password></password>
+    <port>2049</port>
+    <portFriendlyName>nfs</portFriendlyName>
+    <protocolName>tcp</protocolName>
+    <protocolUsed>nfs</protocolUsed>
+    <result>portClosed</result>
+    <resultStatus>failed</resultStatus>
+    <timing>0</timing>
+  </protocol>
+  <protocol>
+    <credential />
+    <deviceMatched></deviceMatched>
+    <ipAddress>172.16.182.4</ipAddress>
+    <password></password>
+    <port>3306</port>
+    <portFriendlyName>mysql</portFriendlyName>
+    <protocolName>tcp</protocolName>
+    <protocolUsed>mysql</protocolUsed>
+    <result>portClosed</result>
+    <resultStatus>failed</resultStatus>
+    <timing>0</timing>
+  </protocol>
+  <protocol>
+    <credential />
+    <deviceMatched></deviceMatched>
+    <ipAddress>172.16.182.4</ipAddress>
+    <password></password>
+    <port>3493</port>
+    <portFriendlyName>nut</portFriendlyName>
+    <protocolName>tcp</protocolName>
+    <protocolUsed>nut</protocolUsed>
+    <result>portClosed</result>
+    <resultStatus>failed</resultStatus>
+    <timing>0</timing>
+  </protocol>
+  <protocol>
+    <credential />
+    <deviceMatched></deviceMatched>
+    <ipAddress>172.16.182.4</ipAddress>
+    <password></password>
+    <port>3690</port>
+    <portFriendlyName>svn</portFriendlyName>
+    <protocolName>tcp</protocolName>
+    <protocolUsed>svn</protocolUsed>
+    <result>portClosed</result>
+    <resultStatus>failed</resultStatus>
+    <timing>0</timing>
+  </protocol>
+  <protocol>
+    <credential />
+    <deviceMatched></deviceMatched>
+    <ipAddress>172.16.182.4</ipAddress>
+    <password></password>
+    <port>5432</port>
+    <portFriendlyName>postgresql</portFriendlyName>
+    <protocolName>tcp</protocolName>
+    <protocolUsed>postgresql</protocolUsed>
+    <result>portClosed</result>
+    <resultStatus>failed</resultStatus>
+    <timing>0</timing>
+  </protocol>
+  <protocol>
+    <credential />
+    <deviceMatched />
+    <ipAddress />
+    <password />
+    <port />
+    <portFriendlyName />
+    <protocolName>wbem</protocolName>
+    <protocolUsed />
+    <result>protocolFailed</result>
+    <resultStatus>failed</resultStatus>
+    <timing>0</timing>
+  </protocol>
+  <protocol>
+    <credential />
+    <deviceMatched></deviceMatched>
+    <ipAddress>172.16.182.4</ipAddress>
+    <password></password>
+    <port>5988</port>
+    <portFriendlyName />
+    <protocolName>wbem</protocolName>
+    <protocolUsed />
+    <result>portClosed</result>
+    <resultStatus>failed</resultStatus>
+    <timing>0</timing>
+  </protocol>
+  <protocol>
+    <credential />
+    <deviceMatched></deviceMatched>
+    <ipAddress>172.16.182.4</ipAddress>
+    <password></password>
+    <port>5989</port>
+    <portFriendlyName />
+    <protocolName>wbem</protocolName>
+    <protocolUsed />
+    <result>portClosed</result>
+    <resultStatus>failed</resultStatus>
+    <timing>0</timing>
+  </protocol>
+  <protocol>
+    <credential />
+    <deviceMatched />
+    <ipAddress />
+    <password />
+    <port />
+    <portFriendlyName />
+    <protocolName>wmi</protocolName>
+    <protocolUsed />
+    <result>protocolFailed</result>
+    <resultStatus>failed</resultStatus>
+    <timing>0</timing>
+  </protocol>
+  <protocol>
+    <credential>blankUser</credential>
+    <deviceMatched></deviceMatched>
+    <ipAddress>172.16.182.4</ipAddress>
+    <password></password>
+    <port>135</port>
+    <portFriendlyName />
+    <protocolName>wmi</protocolName>
+    <protocolUsed />
+    <result>protocolCredentialsFailed</result>
+    <resultStatus>failed</resultStatus>
+    <timing>11834.13</timing>
+  </protocol>
+  <protocol>
+    <credential>nolimits\wmitester</credential>
+    <deviceMatched></deviceMatched>
+    <ipAddress>172.16.182.4</ipAddress>
+    <password>G4tM7++r</password>
+    <port>135</port>
+    <portFriendlyName />
+    <protocolName>wmi</protocolName>
+    <protocolUsed />
+    <result>protocolCredentialsFailed</result>
+    <resultStatus>failed</resultStatus>
+    <timing>11834.13</timing>
+  </protocol>
+  <protocol>
+    <credential>ptsdcs\cyoung</credential>
+    <deviceMatched></deviceMatched>
+    <ipAddress>172.16.182.4</ipAddress>
+    <password>N0Limits</password>
+    <port>135</port>
+    <portFriendlyName />
+    <protocolName>wmi</protocolName>
+    <protocolUsed />
+    <result>protocolCredentialsFailed</result>
+    <resultStatus>failed</resultStatus>
+    <timing>11834.13</timing>
+  </protocol>
+  <rackUnits>
+    <free>42</free>
+    <total>42</total>
+  </rackUnits>
+  <ramp />
+  <row>5</row>
+  <sensor>
+    <agentId />
+    <currentValue>30.5</currentValue>
+    <displayInSensorList>true</displayInSensorList>
+    <location>
+      <name>ICU Rack</name>
+      <type>rack</type>
+      <rackLocation>40</rackLocation>
+      <position>front</position>
+      <id>43d51da5-0387-e311-ab9a-00155d46ecda</id>
+      <displayName>ICU Rack</displayName>
+    </location>
+    <locationEditable>true</locationEditable>
+    <name>Top Front Temperature</name>
+    <originType>realTimeMeasured</originType>
+    <parentDisplayName>ICU Rack</parentDisplayName>
+    <parentId>43d51da5-0387-e311-ab9a-00155d46ecda</parentId>
+    <sensorId>4b882bab-0387-e311-ab9a-00155d46ecda</sensorId>
+    <source>icu</source>
+    <stringValue>30.50</stringValue>
+    <type>temperature</type>
+    <unit>C</unit>
+    <nameEditable>true</nameEditable>
+    <locationEditable>true</locationEditable>
+  </sensor>
+  <sensor>
+    <agentId />
+    <currentValue />
+    <displayInSensorList>true</displayInSensorList>
+    <location>
+      <name>ICU Rack</name>
+      <type>rack</type>
+      <rackLocation>21</rackLocation>
+      <position>front</position>
+      <id>43d51da5-0387-e311-ab9a-00155d46ecda</id>
+      <displayName>ICU Rack</displayName>
+    </location>
+    <locationEditable>true</locationEditable>
+    <name>Middle Front Temperature</name>
+    <originType>realTimeMeasured</originType>
+    <parentDisplayName>ICU Rack</parentDisplayName>
+    <parentId>43d51da5-0387-e311-ab9a-00155d46ecda</parentId>
+    <sensorId>51882bab-0387-e311-ab9a-00155d46ecda</sensorId>
+    <source>icu</source>
+    <stringValue></stringValue>
+    <type>temperature</type>
+    <unit>C</unit>
+    <nameEditable>true</nameEditable>
+    <locationEditable>true</locationEditable>
+  </sensor>
+  <sensor>
+    <agentId />
+    <currentValue>30.6</currentValue>
+    <displayInSensorList>true</displayInSensorList>
+    <location>
+      <name>ICU Rack</name>
+      <type>rack</type>
+      <rackLocation>3</rackLocation>
+      <position>front</position>
+      <id>43d51da5-0387-e311-ab9a-00155d46ecda</id>
+      <displayName>ICU Rack</displayName>
+    </location>
+    <locationEditable>true</locationEditable>
+    <name>Bottom Front Temperature</name>
+    <originType>realTimeMeasured</originType>
+    <parentDisplayName>ICU Rack</parentDisplayName>
+    <parentId>43d51da5-0387-e311-ab9a-00155d46ecda</parentId>
+    <sensorId>78882bab-0387-e311-ab9a-00155d46ecda</sensorId>
+    <source>icu</source>
+    <stringValue>30.60</stringValue>
+    <type>temperature</type>
+    <unit>C</unit>
+    <nameEditable>true</nameEditable>
+    <locationEditable>true</locationEditable>
+  </sensor>
+  <sensor>
+    <agentId />
+    <currentValue>29</currentValue>
+    <displayInSensorList>true</displayInSensorList>
+    <location>
+      <name>ICU Rack</name>
+      <type>rack</type>
+      <rackLocation>40</rackLocation>
+      <position>rear</position>
+      <id>43d51da5-0387-e311-ab9a-00155d46ecda</id>
+      <displayName>ICU Rack</displayName>
+    </location>
+    <locationEditable>true</locationEditable>
+    <name>Top Back Temperature</name>
+    <originType>realTimeMeasured</originType>
+    <parentDisplayName>ICU Rack</parentDisplayName>
+    <parentId>43d51da5-0387-e311-ab9a-00155d46ecda</parentId>
+    <sensorId>8a882bab-0387-e311-ab9a-00155d46ecda</sensorId>
+    <source>icu</source>
+    <stringValue>29.00</stringValue>
+    <type>temperature</type>
+    <unit>C</unit>
+    <nameEditable>true</nameEditable>
+    <locationEditable>true</locationEditable>
+  </sensor>
+  <sensor>
+    <agentId />
+    <currentValue>30.9</currentValue>
+    <displayInSensorList>true</displayInSensorList>
+    <location>
+      <name>ICU Rack</name>
+      <type>rack</type>
+      <rackLocation>1</rackLocation>
+      <position>rear</position>
+      <id>43d51da5-0387-e311-ab9a-00155d46ecda</id>
+      <displayName>ICU Rack</displayName>
+    </location>
+    <locationEditable>true</locationEditable>
+    <name>Back Bottom Temperature</name>
+    <originType>realTimeMeasured</originType>
+    <parentDisplayName>ICU Rack</parentDisplayName>
+    <parentId>43d51da5-0387-e311-ab9a-00155d46ecda</parentId>
+    <sensorId>a1882bab-0387-e311-ab9a-00155d46ecda</sensorId>
+    <source>icu</source>
+    <stringValue>30.90</stringValue>
+    <type>temperature</type>
+    <unit>C</unit>
+    <nameEditable>true</nameEditable>
+    <locationEditable>true</locationEditable>
+  </sensor>
+  <sensor>
+    <agentId />
+    <currentValue>29.9</currentValue>
+    <displayInSensorList>true</displayInSensorList>
+    <location>
+      <name>ICU Rack</name>
+      <type>rack</type>
+      <rackLocation>21</rackLocation>
+      <position>rear</position>
+      <id>43d51da5-0387-e311-ab9a-00155d46ecda</id>
+      <displayName>ICU Rack</displayName>
+    </location>
+    <locationEditable>true</locationEditable>
+    <name>Middle Back Temperature</name>
+    <originType>realTimeMeasured</originType>
+    <parentDisplayName>ICU Rack</parentDisplayName>
+    <parentId>43d51da5-0387-e311-ab9a-00155d46ecda</parentId>
+    <sensorId>d5882bab-0387-e311-ab9a-00155d46ecda</sensorId>
+    <source>icu</source>
+    <stringValue>29.90</stringValue>
+    <type>temperature</type>
+    <unit>C</unit>
+    <nameEditable>true</nameEditable>
+    <locationEditable>true</locationEditable>
+  </sensor>
+  <sensor>
+    <agentId />
+    <currentValue>30.5</currentValue>
+    <displayInSensorList>false</displayInSensorList>
+    <location>
+      <name>ICU Rack</name>
+      <type>rack</type>
+      <position>front</position>
+      <id>43d51da5-0387-e311-ab9a-00155d46ecda</id>
+      <displayName>ICU Rack</displayName>
+    </location>
+    <locationEditable>false</locationEditable>
+    <name>ambientTemperatureFrontRollup</name>
+    <originType>realTimeMeasured</originType>
+    <parentDisplayName>ICU Rack</parentDisplayName>
+    <parentId>43d51da5-0387-e311-ab9a-00155d46ecda</parentId>
+    <sensorId>4f882bab-0387-e311-ab9a-00155d46ecda</sensorId>
+    <source>api</source>
+    <stringValue>30.50</stringValue>
+    <type>temperature</type>
+    <unit>C</unit>
+    <nameEditable>true</nameEditable>
+    <locationEditable>true</locationEditable>
+  </sensor>
+  <sensor>
+    <agentId />
+    <currentValue>30.9</currentValue>
+    <displayInSensorList>false</displayInSensorList>
+    <location>
+      <name>ICU Rack</name>
+      <type>rack</type>
+      <position>rear</position>
+      <id>43d51da5-0387-e311-ab9a-00155d46ecda</id>
+      <displayName>ICU Rack</displayName>
+    </location>
+    <locationEditable>false</locationEditable>
+    <name>ambientTemperatureRearRollup</name>
+    <originType>realTimeMeasured</originType>
+    <parentDisplayName>ICU Rack</parentDisplayName>
+    <parentId>43d51da5-0387-e311-ab9a-00155d46ecda</parentId>
+    <sensorId>97882bab-0387-e311-ab9a-00155d46ecda</sensorId>
+    <source>api</source>
+    <stringValue>30.90</stringValue>
+    <type>temperature</type>
+    <unit>C</unit>
+    <nameEditable>true</nameEditable>
+    <locationEditable>true</locationEditable>
+  </sensor>
+  <sensor>
+    <agentId />
+    <currentValue>0</currentValue>
+    <displayInSensorList>false</displayInSensorList>
+    <location>
+      <name>ICU Rack</name>
+      <type>rack</type>
+      <id>43d51da5-0387-e311-ab9a-00155d46ecda</id>
+      <displayName>ICU Rack</displayName>
+    </location>
+    <locationEditable>false</locationEditable>
+    <name>copperPortsAvailable</name>
+    <originType>analyzed</originType>
+    <parentDisplayName>ICU Rack</parentDisplayName>
+    <parentId>43d51da5-0387-e311-ab9a-00155d46ecda</parentId>
+    <sensorId>068a2bab-0387-e311-ab9a-00155d46ecda</sensorId>
+    <source>hourlyProcessing</source>
+    <stringValue>0.00</stringValue>
+    <type>copperPortsAvailable</type>
+    <unit>count</unit>
+    <nameEditable>true</nameEditable>
+    <locationEditable>true</locationEditable>
+  </sensor>
+  <sensor>
+    <agentId />
+    <currentValue>0</currentValue>
+    <displayInSensorList>false</displayInSensorList>
+    <location>
+      <name>ICU Rack</name>
+      <type>rack</type>
+      <id>43d51da5-0387-e311-ab9a-00155d46ecda</id>
+      <displayName>ICU Rack</displayName>
+    </location>
+    <locationEditable>false</locationEditable>
+    <name>copperPortsTotal</name>
+    <originType>analyzed</originType>
+    <parentDisplayName>ICU Rack</parentDisplayName>
+    <parentId>43d51da5-0387-e311-ab9a-00155d46ecda</parentId>
+    <sensorId>018a2bab-0387-e311-ab9a-00155d46ecda</sensorId>
+    <source>hourlyWithLastProcessing</source>
+    <stringValue>0.00</stringValue>
+    <type>copperPortsTotal</type>
+    <unit>count</unit>
+    <nameEditable>true</nameEditable>
+    <locationEditable>true</locationEditable>
+  </sensor>
+  <sensor>
+    <agentId />
+    <currentValue>5000</currentValue>
+    <displayInSensorList>false</displayInSensorList>
+    <location>
+      <name>ICU Rack</name>
+      <type>rack</type>
+      <id>43d51da5-0387-e311-ab9a-00155d46ecda</id>
+      <displayName>ICU Rack</displayName>
+    </location>
+    <locationEditable>false</locationEditable>
+    <name>design</name>
+    <originType>analyzed</originType>
+    <parentDisplayName>ICU Rack</parentDisplayName>
+    <parentId>43d51da5-0387-e311-ab9a-00155d46ecda</parentId>
+    <sensorId>d9892bab-0387-e311-ab9a-00155d46ecda</sensorId>
+    <source>hourlyWithLastProcessing</source>
+    <stringValue>5000.00</stringValue>
+    <type>power</type>
+    <unit>watts</unit>
+    <nameEditable>true</nameEditable>
+    <locationEditable>true</locationEditable>
+  </sensor>
+  <sensor>
+    <agentId />
+    <currentValue>0</currentValue>
+    <displayInSensorList>false</displayInSensorList>
+    <location>
+      <name>ICU Rack</name>
+      <type>rack</type>
+      <id>43d51da5-0387-e311-ab9a-00155d46ecda</id>
+      <displayName>ICU Rack</displayName>
+    </location>
+    <locationEditable>false</locationEditable>
+    <name>deviceCount</name>
+    <originType>analyzed</originType>
+    <parentDisplayName>ICU Rack</parentDisplayName>
+    <parentId>43d51da5-0387-e311-ab9a-00155d46ecda</parentId>
+    <sensorId>908a2bab-0387-e311-ab9a-00155d46ecda</sensorId>
+    <source>hourlyProcessing</source>
+    <stringValue>0.00</stringValue>
+    <type>deviceCount</type>
+    <unit>count</unit>
+    <nameEditable>true</nameEditable>
+    <locationEditable>true</locationEditable>
+  </sensor>
+  <sensor>
+    <agentId />
+    <currentValue />
+    <displayInSensorList>false</displayInSensorList>
+    <location>
+      <name>ICU Rack</name>
+      <type>rack</type>
+      <position>front</position>
+      <id>43d51da5-0387-e311-ab9a-00155d46ecda</id>
+      <displayName>ICU Rack</displayName>
+    </location>
+    <locationEditable>false</locationEditable>
+    <name>Front Door Lock Status</name>
+    <originType>realTimeMeasured</originType>
+    <parentDisplayName>ICU Rack</parentDisplayName>
+    <parentId>43d51da5-0387-e311-ab9a-00155d46ecda</parentId>
+    <sensorId>06892bab-0387-e311-ab9a-00155d46ecda</sensorId>
+    <source>icu</source>
+    <stringValue>Locked</stringValue>
+    <type>doorLockStatusFront</type>
+    <unit>value</unit>
+    <nameEditable>true</nameEditable>
+    <locationEditable>true</locationEditable>
+  </sensor>
+  <sensor>
+    <agentId />
+    <currentValue />
+    <displayInSensorList>false</displayInSensorList>
+    <location>
+      <name>ICU Rack</name>
+      <type>rack</type>
+      <position>rear</position>
+      <id>43d51da5-0387-e311-ab9a-00155d46ecda</id>
+      <displayName>ICU Rack</displayName>
+    </location>
+    <locationEditable>false</locationEditable>
+    <name>Rear Door Lock Status</name>
+    <originType>realTimeMeasured</originType>
+    <parentDisplayName>ICU Rack</parentDisplayName>
+    <parentId>43d51da5-0387-e311-ab9a-00155d46ecda</parentId>
+    <sensorId>29892bab-0387-e311-ab9a-00155d46ecda</sensorId>
+    <source>icu</source>
+    <stringValue>Locked</stringValue>
+    <type>doorLockStatusRear</type>
+    <unit>value</unit>
+    <nameEditable>true</nameEditable>
+    <locationEditable>true</locationEditable>
+  </sensor>
+  <sensor>
+    <agentId />
+    <currentValue />
+    <displayInSensorList>false</displayInSensorList>
+    <location>
+      <name>ICU Rack</name>
+      <type>rack</type>
+      <position>front</position>
+      <id>43d51da5-0387-e311-ab9a-00155d46ecda</id>
+      <displayName>ICU Rack</displayName>
+    </location>
+    <locationEditable>false</locationEditable>
+    <name>Front Door Status</name>
+    <originType>realTimeMeasured</originType>
+    <parentDisplayName>ICU Rack</parentDisplayName>
+    <parentId>43d51da5-0387-e311-ab9a-00155d46ecda</parentId>
+    <sensorId>4c892bab-0387-e311-ab9a-00155d46ecda</sensorId>
+    <source>icu</source>
+    <stringValue>Closed</stringValue>
+    <type>doorStatusFront</type>
+    <unit>value</unit>
+    <nameEditable>true</nameEditable>
+    <locationEditable>true</locationEditable>
+  </sensor>
+  <sensor>
+    <agentId />
+    <currentValue />
+    <displayInSensorList>false</displayInSensorList>
+    <location>
+      <name>ICU Rack</name>
+      <type>rack</type>
+      <position>rear</position>
+      <id>43d51da5-0387-e311-ab9a-00155d46ecda</id>
+      <displayName>ICU Rack</displayName>
+    </location>
+    <locationEditable>false</locationEditable>
+    <name>Rear Door Status</name>
+    <originType>realTimeMeasured</originType>
+    <parentDisplayName>ICU Rack</parentDisplayName>
+    <parentId>43d51da5-0387-e311-ab9a-00155d46ecda</parentId>
+    <sensorId>67892bab-0387-e311-ab9a-00155d46ecda</sensorId>
+    <source>icu</source>
+    <stringValue>Closed</stringValue>
+    <type>doorStatusRear</type>
+    <unit>value</unit>
+    <nameEditable>true</nameEditable>
+    <locationEditable>true</locationEditable>
+  </sensor>
+  <sensor>
+    <agentId />
+    <currentValue>0</currentValue>
+    <displayInSensorList>false</displayInSensorList>
+    <location>
+      <name>ICU Rack</name>
+      <type>rack</type>
+      <id>43d51da5-0387-e311-ab9a-00155d46ecda</id>
+      <displayName>ICU Rack</displayName>
+    </location>
+    <locationEditable>false</locationEditable>
+    <name>fiberPortsAvailable</name>
+    <originType>analyzed</originType>
+    <parentDisplayName>ICU Rack</parentDisplayName>
+    <parentId>43d51da5-0387-e311-ab9a-00155d46ecda</parentId>
+    <sensorId>0c8a2bab-0387-e311-ab9a-00155d46ecda</sensorId>
+    <source>hourlyProcessing</source>
+    <stringValue>0.00</stringValue>
+    <type>fiberPortsAvailable</type>
+    <unit>count</unit>
+    <nameEditable>true</nameEditable>
+    <locationEditable>true</locationEditable>
+  </sensor>
+  <sensor>
+    <agentId />
+    <currentValue>0</currentValue>
+    <displayInSensorList>false</displayInSensorList>
+    <location>
+      <name>ICU Rack</name>
+      <type>rack</type>
+      <id>43d51da5-0387-e311-ab9a-00155d46ecda</id>
+      <displayName>ICU Rack</displayName>
+    </location>
+    <locationEditable>false</locationEditable>
+    <name>fiberPortsTotal</name>
+    <originType>analyzed</originType>
+    <parentDisplayName>ICU Rack</parentDisplayName>
+    <parentId>43d51da5-0387-e311-ab9a-00155d46ecda</parentId>
+    <sensorId>128a2bab-0387-e311-ab9a-00155d46ecda</sensorId>
+    <source>hourlyWithLastProcessing</source>
+    <stringValue>0.00</stringValue>
+    <type>fiberPortsTotal</type>
+    <unit>count</unit>
+    <nameEditable>true</nameEditable>
+    <locationEditable>true</locationEditable>
+  </sensor>
+  <sensor>
+    <agentId />
+    <currentValue />
+    <displayInSensorList>true</displayInSensorList>
+    <location>
+      <name>ICU Rack</name>
+      <type>rack</type>
+      <rackLocation>21</rackLocation>
+      <position>front</position>
+      <id>43d51da5-0387-e311-ab9a-00155d46ecda</id>
+      <displayName>ICU Rack</displayName>
+    </location>
+    <locationEditable>true</locationEditable>
+    <name>Middle Front Humidity</name>
+    <originType>realTimeMeasured</originType>
+    <parentDisplayName>ICU Rack</parentDisplayName>
+    <parentId>43d51da5-0387-e311-ab9a-00155d46ecda</parentId>
+    <sensorId>56882bab-0387-e311-ab9a-00155d46ecda</sensorId>
+    <source>icu</source>
+    <stringValue></stringValue>
+    <type>humidity</type>
+    <unit>%</unit>
+    <nameEditable>true</nameEditable>
+    <locationEditable>true</locationEditable>
+  </sensor>
+  <sensor>
+    <agentId />
+    <currentValue />
+    <displayInSensorList>false</displayInSensorList>
+    <location>
+      <name>ICU Rack</name>
+      <type>rack</type>
+      <position>front</position>
+      <id>43d51da5-0387-e311-ab9a-00155d46ecda</id>
+      <displayName>ICU Rack</displayName>
+    </location>
+    <locationEditable>false</locationEditable>
+    <name>humidityFrontRollup</name>
+    <originType>realTimeMeasured</originType>
+    <parentDisplayName>ICU Rack</parentDisplayName>
+    <parentId>43d51da5-0387-e311-ab9a-00155d46ecda</parentId>
+    <sensorId>5e882bab-0387-e311-ab9a-00155d46ecda</sensorId>
+    <source>api</source>
+    <stringValue></stringValue>
+    <type>humidityFrontRollup</type>
+    <unit>%</unit>
+    <nameEditable>true</nameEditable>
+    <locationEditable>true</locationEditable>
+  </sensor>
+  <sensor>
+    <agentId />
+    <currentValue />
+    <displayInSensorList>true</displayInSensorList>
+    <location>
+      <name>ICU Rack</name>
+      <type>rack</type>
+      <rackLocation>21</rackLocation>
+      <position>front</position>
+      <id>43d51da5-0387-e311-ab9a-00155d46ecda</id>
+      <displayName>ICU Rack</displayName>
+    </location>
+    <locationEditable>true</locationEditable>
+    <name>Middle Front Pressure</name>
+    <originType>realTimeMeasured</originType>
+    <parentDisplayName>ICU Rack</parentDisplayName>
+    <parentId>43d51da5-0387-e311-ab9a-00155d46ecda</parentId>
+    <sensorId>66882bab-0387-e311-ab9a-00155d46ecda</sensorId>
+    <source>icu</source>
+    <stringValue></stringValue>
+    <type>pressure</type>
+    <unit>Pa</unit>
+    <nameEditable>true</nameEditable>
+    <locationEditable>true</locationEditable>
+  </sensor>
+  <sensor>
+    <agentId />
+    <currentValue />
+    <displayInSensorList>true</displayInSensorList>
+    <location>
+      <name>ICU Rack</name>
+      <type>rack</type>
+      <rackLocation>1</rackLocation>
+      <position>rear</position>
+      <id>43d51da5-0387-e311-ab9a-00155d46ecda</id>
+      <displayName>ICU Rack</displayName>
+    </location>
+    <locationEditable>true</locationEditable>
+    <name>Back Bottom Pressure</name>
+    <originType>realTimeMeasured</originType>
+    <parentDisplayName>ICU Rack</parentDisplayName>
+    <parentId>43d51da5-0387-e311-ab9a-00155d46ecda</parentId>
+    <sensorId>b8882bab-0387-e311-ab9a-00155d46ecda</sensorId>
+    <source>icu</source>
+    <stringValue></stringValue>
+    <type>pressure</type>
+    <unit>Pa</unit>
+    <nameEditable>true</nameEditable>
+    <locationEditable>true</locationEditable>
+  </sensor>
+  <sensor>
+    <agentId />
+    <currentValue />
+    <displayInSensorList>false</displayInSensorList>
+    <location>
+      <name>ICU Rack</name>
+      <type>rack</type>
+      <position>front</position>
+      <id>43d51da5-0387-e311-ab9a-00155d46ecda</id>
+      <displayName>ICU Rack</displayName>
+    </location>
+    <locationEditable>false</locationEditable>
+    <name>pressureFrontRollup</name>
+    <originType>realTimeMeasured</originType>
+    <parentDisplayName>ICU Rack</parentDisplayName>
+    <parentId>43d51da5-0387-e311-ab9a-00155d46ecda</parentId>
+    <sensorId>71882bab-0387-e311-ab9a-00155d46ecda</sensorId>
+    <source>api</source>
+    <stringValue></stringValue>
+    <type>pressureFrontRollup</type>
+    <unit>Pa</unit>
+    <nameEditable>true</nameEditable>
+    <locationEditable>true</locationEditable>
+  </sensor>
+  <sensor>
+    <agentId />
+    <currentValue />
+    <displayInSensorList>false</displayInSensorList>
+    <location>
+      <name>ICU Rack</name>
+      <type>rack</type>
+      <position>rear</position>
+      <id>43d51da5-0387-e311-ab9a-00155d46ecda</id>
+      <displayName>ICU Rack</displayName>
+    </location>
+    <locationEditable>false</locationEditable>
+    <name>pressureRearRollup</name>
+    <originType>realTimeMeasured</originType>
+    <parentDisplayName>ICU Rack</parentDisplayName>
+    <parentId>43d51da5-0387-e311-ab9a-00155d46ecda</parentId>
+    <sensorId>ca882bab-0387-e311-ab9a-00155d46ecda</sensorId>
+    <source>api</source>
+    <stringValue></stringValue>
+    <type>pressureRearRollup</type>
+    <unit>Pa</unit>
+    <nameEditable>true</nameEditable>
+    <locationEditable>true</locationEditable>
+  </sensor>
+  <sensor>
+    <agentId />
+    <currentValue>0</currentValue>
+    <displayInSensorList>false</displayInSensorList>
+    <location>
+      <name>ICU Rack</name>
+      <type>rack</type>
+      <id>43d51da5-0387-e311-ab9a-00155d46ecda</id>
+      <displayName>ICU Rack</displayName>
+    </location>
+    <locationEditable>false</locationEditable>
+    <name>rackPowerCapaicty</name>
+    <originType>analyzed</originType>
+    <parentDisplayName>ICU Rack</parentDisplayName>
+    <parentId>43d51da5-0387-e311-ab9a-00155d46ecda</parentId>
+    <sensorId>fa892bab-0387-e311-ab9a-00155d46ecda</sensorId>
+    <source>hourlyWithLastProcessing</source>
+    <stringValue>0.00</stringValue>
+    <type>rackPowerCapaicty</type>
+    <unit>watts</unit>
+    <nameEditable>true</nameEditable>
+    <locationEditable>true</locationEditable>
+  </sensor>
+  <sensor>
+    <agentId />
+    <currentValue>0</currentValue>
+    <displayInSensorList>false</displayInSensorList>
+    <location>
+      <name>ICU Rack</name>
+      <type>rack</type>
+      <id>43d51da5-0387-e311-ab9a-00155d46ecda</id>
+      <displayName>ICU Rack</displayName>
+    </location>
+    <locationEditable>false</locationEditable>
+    <name>rackPowerUsed</name>
+    <originType>analyzed</originType>
+    <parentDisplayName>ICU Rack</parentDisplayName>
+    <parentId>43d51da5-0387-e311-ab9a-00155d46ecda</parentId>
+    <sensorId>fd892bab-0387-e311-ab9a-00155d46ecda</sensorId>
+    <source>hourlyWithLastProcessing</source>
+    <stringValue>0.00</stringValue>
+    <type>rackPowerUsed</type>
+    <unit>watts</unit>
+    <nameEditable>true</nameEditable>
+    <locationEditable>true</locationEditable>
+  </sensor>
+  <sensor>
+    <agentId />
+    <currentValue>42</currentValue>
+    <displayInSensorList>false</displayInSensorList>
+    <location>
+      <name>ICU Rack</name>
+      <type>rack</type>
+      <id>43d51da5-0387-e311-ab9a-00155d46ecda</id>
+      <displayName>ICU Rack</displayName>
+    </location>
+    <locationEditable>false</locationEditable>
+    <name>totalAvailableRackUnits</name>
+    <originType>analyzed</originType>
+    <parentDisplayName>ICU Rack</parentDisplayName>
+    <parentId>43d51da5-0387-e311-ab9a-00155d46ecda</parentId>
+    <sensorId>d2892bab-0387-e311-ab9a-00155d46ecda</sensorId>
+    <source>hourlyProcessing</source>
+    <stringValue>42.00</stringValue>
+    <type>totalAvailableRackUnits</type>
+    <unit>RU</unit>
+    <nameEditable>true</nameEditable>
+    <locationEditable>true</locationEditable>
+  </sensor>
+  <sensor>
+    <agentId />
+    <currentValue>0</currentValue>
+    <displayInSensorList>false</displayInSensorList>
+    <location>
+      <name>ICU Rack</name>
+      <type>rack</type>
+      <id>43d51da5-0387-e311-ab9a-00155d46ecda</id>
+      <displayName>ICU Rack</displayName>
+    </location>
+    <locationEditable>false</locationEditable>
+    <name>Rack Total Power</name>
+    <originType>analyzed</originType>
+    <parentDisplayName>ICU Rack</parentDisplayName>
+    <parentId>43d51da5-0387-e311-ab9a-00155d46ecda</parentId>
+    <sensorId>46882bab-0387-e311-ab9a-00155d46ecda</sensorId>
+    <source>icu</source>
+    <stringValue>0.00</stringValue>
+    <type>power</type>
+    <unit>Watts</unit>
+    <nameEditable>true</nameEditable>
+    <locationEditable>true</locationEditable>
+  </sensor>
+  <sensor>
+    <agentId />
+    <currentValue>0</currentValue>
+    <displayInSensorList>false</displayInSensorList>
+    <location>
+      <name>ICU Rack</name>
+      <type>rack</type>
+      <id>43d51da5-0387-e311-ab9a-00155d46ecda</id>
+      <displayName>ICU Rack</displayName>
+    </location>
+    <locationEditable>false</locationEditable>
+    <name>totalRackSpaceUsed</name>
+    <originType>analyzed</originType>
+    <parentDisplayName>ICU Rack</parentDisplayName>
+    <parentId>43d51da5-0387-e311-ab9a-00155d46ecda</parentId>
+    <sensorId>d5892bab-0387-e311-ab9a-00155d46ecda</sensorId>
+    <source>hourlyProcessing</source>
+    <stringValue>0.00</stringValue>
+    <type>totalRackSpaceUsed</type>
+    <unit>RU</unit>
+    <nameEditable>true</nameEditable>
+    <locationEditable>true</locationEditable>
+  </sensor>
+  <serialNumber />
+  <size>42</size>
+  <status>normal</status>
+  <type>rack</type>
+  <typeAtDiscovery>rack</typeAtDiscovery>
+  <width>23.62</width>
+  <xOffset>0</xOffset>
+  <yOffset>0</yOffset>
+  <displayNameEditable>true</displayNameEditable>
+  <notesEditable>true</notesEditable>
+  <powerEditable>true</powerEditable>
+  <locationEditable>true</locationEditable>
+  <customEditable>true</customEditable>
+  <userPowerEditable>false</userPowerEditable>
+  <modelEditable>true</modelEditable>
+  <partNumberEditable>true</partNumberEditable>
+  <operatingSystemEditable>true</operatingSystemEditable>
+  <serialNumberEditable>true</serialNumberEditable>
+  <assetTagEditable>true</assetTagEditable>
+  <firmwareVersionEditable>true</firmwareVersionEditable>
+  <statusEditable>false</statusEditable>
+  <cpuEditable>true</cpuEditable>
+</asset>
